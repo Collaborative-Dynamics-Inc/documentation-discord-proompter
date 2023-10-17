@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Permissions Generator</title>
+</head>
+<body>
+  <h1>Permissions Generator</h1>
+  <div>Set "Role ID" to "everyone" or the Guild ID to change permissions for public tiers (defaults to View only)</div>
+  
+  <div id="roles-container">
+    <div>
+      <label for="role-input">Role ID:</label>
+      <input type="text" class="role-input" />
+      <div class="permissions-container"></div>
+    </div>
+
+  </div>
+
+  <button onclick="addRoleInput()">Add Role</button>
+  <button onclick="generateFullPermissions()">Generate Permissions</button>
+  <button onclick="importPermissions()">Import Permissions</button>
+
+  <div>
+    <h2>Generated JSON:</h2>
+    <div id="json-output"></div>
+  </div>
+
+  <script>
+    const permissions = [
+      { value: 1, label: 'View Prompts' },
+      { value: 2, label: 'Create Prompts' },
+      { value: 4, label: 'Use Chatbots' },
+      { value: 8, label: 'Manage Chatbots' },
+    ];
+
+    function addPermissionSet(permissionSetContainer) {
+      const permissionsContainer = permissionSetContainer.querySelector('.permissions-container');
+
+      permissions.forEach(permission => {
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.name = "permission";
+        checkbox.value = permission.value;
+
+        const label = document.createElement("label");
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(permission.label));
+
+        permissionsContainer.appendChild(label);
+      });
+    }
+
+    function addRoleInput() {
+      const rolesContainer = document.getElementById("roles-container");
+
+      const roleDiv = document.createElement("div");
+      roleDiv.innerHTML = `
+        <label for="role-input">Role ID:</label>
+        <input type="text" class="role-input" />
+        <button class="remove-role-button" onclick="confirmRemoveRole(event)">Remove Role</button>
+        <div class="permissions-container"></div>
+      `;
+
+      addPermissionSet(roleDiv);
+      rolesContainer.appendChild(roleDiv);
+    }
+
+    function confirmRemoveRole(event) {
+      const roleDiv = event.target.parentNode;
+      if (confirm("Are you sure you want to remove this role?")) {
+        roleDiv.parentNode.removeChild(roleDiv);
+      }
+    }
+
+    function generateFullPermissions() {
+      const jsonOutput = document.getElementById("json-output");
+      const rolesContainer = document.getElementsByClassName("role-input");
+      const permissionSets = document.getElementsByClassName("permissions-container");
+
+      const rolePermissions = [];
+
+      for (let i = 0; i < rolesContainer.length; i++) {
+        const roleId = rolesContainer[i].value.trim();
+        const permissionsContainer = permissionSets[i].querySelectorAll('input[name="permission"]:checked');
+        const permissions = Array.from(permissionsContainer).map(input => parseInt(input.value));
+
+        rolePermissions.push({ roleId, permissions });
+      }
+
+      const json = JSON.stringify(rolePermissions);
+      jsonOutput.textContent = json;
+    }
+    
+    function importPermissions() {
+      const jsonInput = prompt("Enter the JSON string to import:");
+
+      try {
+        const permissions = JSON.parse(jsonInput);
+
+        if (Array.isArray(permissions)) {
+          const rolesContainer = document.getElementById("roles-container");
+          rolesContainer.innerHTML = "";
+
+          permissions.forEach(permission => {
+            const roleDiv = document.createElement("div");
+            roleDiv.innerHTML = `
+              <label for="role-input">Role ID:</label>
+              <input type="text" class="role-input" value="${permission.roleId}" />
+              <button class="remove-role-button" onclick="confirmRemoveRole(event)">Remove Role</button>
+              <div class="permissions-container"></div>
+            `;
+
+            addPermissionSet(roleDiv);
+            rolesContainer.appendChild(roleDiv);
+
+            const permissionsContainer = roleDiv.querySelector('.permissions-container');
+            permission.permissions.forEach(p => {
+              const checkbox = permissionsContainer.querySelector(`input[value="${p}"]`);
+              if (checkbox) {
+                checkbox.checked = true;
+              }
+            });
+          });
+        }
+      } catch (error) {
+        alert("Invalid JSON string.");
+      }
+    }
+
+    const firstRoleContainer = document.querySelector('#roles-container > div');
+    addPermissionSet(firstRoleContainer);
+  </script>
+  </body>
+</html>

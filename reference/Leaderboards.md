@@ -1,0 +1,11 @@
+# Leaderboards
+
+## Types
+- `PROMPT_DAILY`
+- `PROMPT_WEEKLY`
+- `PROMPT_MONTHLY`
+- `PROMPT_YEARLY`
+- `PROMPT_ALL_TIME`
+
+- `CHATBOT_ALL_TIME`
+
