@@ -19,7 +19,7 @@
 - 🟪 All the different parts have a description to give a quick explanation about what the specific command/option is there for
 > Each option can be of a different type, for example an user/role, an integer/number, an attachment or a string/text.
 
-![[../Attachments/command-parts.png]]
+![[command-parts.png]]
 
 
 ---
@@ -55,7 +55,7 @@
 > - **Optional** options can be passed if necessary. Check the commands documentation to decide if it's necessary or not
 > - **Conditional** options aren't a specific type provided by Discord, so they aren't displayed any different. They are just two or more optional options and if none is provided, the command will fail
 
-![[../Attachments/option-types.png]]
+![[option-types.png]]
 
 
 ---
@@ -65,4 +65,4 @@
 > Simply write a slash (`/`) in the empty chat and a list with commands will pop-up.
 > From there, you can either select them with your mouse/arrow keys or write the command into the chat. Follow the descriptions/documentation of the specific command/subcommand to enter all the parameters you need
 
-![[../Attachments/command-list.png]]
+![[command-list.png]]

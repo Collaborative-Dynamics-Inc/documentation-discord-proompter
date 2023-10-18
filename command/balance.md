@@ -1,16 +1,16 @@
 #### /balance info
 > Shows details about your balance and LLM usage
 - **`show-transactions`**
-  - *[Optional, Boolean](../reference/Slash%20Commands####Boolean)*
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
   - If true, all transactions are shown
 - **`download-csv`**
-  - *[Optional, Boolean](../reference/Slash%20Commands####Boolean)*
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
   - If true, a CSV file with all the transactions will be created
 
 #### /balance orders inspect
 > Get all the details about a specific order
 - **`order-uuid`**
-  - *[Required, String](../reference/Slash%20Commands####String)*
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
 
 #### /balance orders list
 > List all your orders

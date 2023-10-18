@@ -1,7 +1,7 @@
 #### /index
 > Get a full list of prompts, based on some filters
 - `filter`
-  - *[Required, String](../reference/Slash%20Commands####String)*
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - A selection of one or more filters
   - Options:
     - *name*

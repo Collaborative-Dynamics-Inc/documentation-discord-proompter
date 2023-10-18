@@ -14,7 +14,7 @@
   - `<@USER_ID>`
   - `<@&ROLE_ID>`
   - `<#CHANNEL_ID>`
-- In the way as the IDs get presented, you can also use them to mention users, roles or channels with the same format. That format can also be used inside of [slash command options](../../reference/Slash%20Commands##Command%20Option%20Types)
+- In the way as the IDs get presented, you can also use them to mention users, roles or channels with the same format. That format can also be used inside of [slash command options](proompter-documentation/guides/Quickstart/Slash%20Commands.md##Command%20Option%20Types)
 
 
 ---

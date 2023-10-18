@@ -1,10 +1,11 @@
 # Proompter Documentation - Markdown
 
-## [Slash Commands](./reference/Slash%20Commands)
+## [Slash Commands](proompter-documentation/guides/Quickstart/Slash%20Commands.md)
 - [/balance](./command/balance) 
 - [/chatbot](./command/chatbot) 
 - [/close-thread](./command/close-thread)
 - [/context](./command/context) 
+- [/conversation](./command/conversation)
 - [/doctor](./command/doctor) 
 - [/download](./command/download)
 - [/find](./command/find) 
@@ -47,9 +48,9 @@
 
 
 ## Reference
-- [Use Slash Commands](./reference/slash%20commands)
+- [Use Slash Commands](proompter-documentation/guides/Quickstart/Slash%20Commands.md)
 - [Token Usage & Balance](./reference/Token%20Usage%20&%20Balance)
-- [Interact with Chatbots](./reference/Interact%20with%20Chatbots)
+- [Interact with Chatbots](proompter-documentation/guides/Quickstart/Interact%20with%20Chatbots.md)
 - [Prompt Filename Pattern](./reference/Prompt%20Filename%20Pattern)
 - [Tier Identifiers in CD](./reference/Tier%20Identifiers%20in%20CD)
 - [Leaderboards](./reference/Leaderboards)

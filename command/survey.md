@@ -7,5 +7,5 @@
 #### /survey delete-entry
 > Delete your survey entry
 - **`confirm`**
-  - *[Required, String](../reference/Slash%20Commands####String)*
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - Confirm by passing `true`

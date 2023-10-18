@@ -4,7 +4,7 @@
 #### /insight roles
 > Get a list of all members with a role
 - **`role-members`**
-  - *[Required, Role](../reference/Slash%20Commands####Role)*
+  - *[Required, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
   - The role to get the memberlist for
 
 #### /insight statistics

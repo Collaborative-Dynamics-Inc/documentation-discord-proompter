@@ -4,5 +4,5 @@
 #### /social-media prepare
 > Prepare a social media post for a existing prompt post
 - **`platform`**
-  - *[Required, String](../reference/Slash%20Commands####String)*
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - The platform for which a post should be prepared
