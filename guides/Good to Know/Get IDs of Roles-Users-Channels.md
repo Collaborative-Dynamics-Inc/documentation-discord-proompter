@@ -16,11 +16,15 @@
 
 ### In the Chat
 - Write the mention of a user/role or a channel reference like you would normally. For example, `@Haffel`, `@Chatbot 1` or `#documentation`
-- Now, write a backslash `\` before that mention. `\@Haffel`, `\@Chatbot 1` or `\#documentation`. You shouldn't write the backslash before writing the mention, as it won't show any recommendations for for autocompleting the name
+- Now, write a **backslash** `\` (NOT a slash `/`) before each mention. `\@Haffel`, `\@Chatbot 1` or `\#documentation`
 - Send the message, and it should now show the ID of whatever you mentioned/referenced. Formats are like this:
   - `<@USER_ID>`
   - `<@&ROLE_ID>`
   - `<#CHANNEL_ID>`
+
+#### Note:
+- Write the backslash after you wrote the mention, else it won't show any recommendations to autocomplete the name
+- Each mention needs it's own backslash. It's not a message wide toggle
 
 *Write mention(s)*
 ![[../../Attachments/Mentions.png]]
