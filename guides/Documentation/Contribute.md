@@ -72,5 +72,3 @@
 - "Create pull request"
 
 ![[Configure pull request.png]]
-
-### Done

@@ -59,3 +59,11 @@
 - [Godmode](./reference/Godmode)
 - [Conversation Export - Templates](./reference/Conversation%20Export%20Templates)
 - [Chatbots - Textfile Injection](./reference/Chatbot%20Attachment%20Injection)
+
+
+
+
+
+
+## Download Documentation
+- The documentation is available in Markdown format [on Github](<https://github.com/collaborative-dynamics-ai/proompter-documentation>), optimized for [Obsidian.md](<https://obsidian.md/>)
