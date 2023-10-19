@@ -22,7 +22,7 @@
   - `<@&ROLE_ID>`
   - `<#CHANNEL_ID>`
 
-#### Note:
+#### Note
 - Write the backslash after you wrote the mention, else it won't show any recommendations to autocomplete the name
 - Each mention needs it's own backslash. It's not a message wide toggle
 

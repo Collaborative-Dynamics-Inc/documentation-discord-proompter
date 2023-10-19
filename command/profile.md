@@ -3,7 +3,7 @@
 
 #### /profile templates set
 > Set templates which are used to [download a conversation](./conversation####/conversation%20download)
-> Learn more about how to create these templates [here](<LINK_TO_EXPORT_TEMPLATE>)
+> Learn more about how to create these templates [here](../reference/Conversation%20Export%20Templates)
 - **`format`**
   - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - *Available Options:*
