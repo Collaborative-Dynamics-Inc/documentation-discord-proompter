@@ -8,7 +8,3 @@
 > `T4`: Tier 4
 > `VIS`: Visionary
 > `STAFF`: Staff Prompts
-
-
-### Note:
-> The mentioned Tier identifiers are specific for the "Stunspot Prompting" Discord. On other servers the setup might be different, therefore other identifiers are valid.

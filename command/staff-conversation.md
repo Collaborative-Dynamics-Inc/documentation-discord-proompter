@@ -1,20 +1,24 @@
-#### /staff-conversation list
+</staff-conversation list:1143118535757930516>
 > List all saved conversations
 
-#### /staff-conversation inspect
+</staff-conversation inspect:1143118535757930516>
 > Show details about a conversation
-- **`conversation-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`conversation-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If no UUID is provided, the conversation in the current channel is used
 
-#### /staff-conversation message list
+
+
+</staff-conversation message list:1143118535757930516>
 > List all messages in a conversation
-- **`conversation-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`conversation-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If no UUID is provided, the conversation in the current channel is used
 
-#### /staff-conversation message inspect
+</staff-conversation message inspect:1143118535757930516>
 > Get details about a specific message in a conversation
-- **`message-uuid`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`message-uuid`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the message you want to get details for
+
+

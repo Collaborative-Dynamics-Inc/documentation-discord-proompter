@@ -1,138 +1,147 @@
-#### /staff-settings modules
+</staff-settings modules:1140394502863986710>
 > Manage different modules of the bot
 > Passing no option will display the current settings
-- **`module`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`module`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Available Options:*
-    - **`SocialMediaPost`**
-	- **`Instagram`**
-- **`enabled`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+    - __**`SocialMediaPost`**__
+	- __**`Instagram`**__
+- __**`enabled`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Change the status of a module
 
-#### /staff-settings chatbot ignored-channels
+</staff-settings chatbot ignored-channels:1140394502863986710>
 > Manage the channels which will be ignored by all chatbots
 > Passing no option will display the current settings
-- **`set-channels`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-channels`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Set the list of ignored channels, separated by a semicolon
-- **`add-channels`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`add-channels`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Add a list of ignored channels, separated by a semicolon
-- **`clear-channels`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`clear-channels`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Clear the list of ignored channels
 
-#### /staff-settings chatbot chatbot-library
+</staff-settings chatbot chatbot-library:1140394502863986710>
 > Manage the chatbot library
 > Passing no option will display the current settings
-- **`forum-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum where chatbots will show up
 
-#### /staff-settings prompt-portal
+</staff-settings prompt-portal:1140394502863986710>
 - Manage the prompt portal
 > Passing no option will display the current settings
-- **`ping-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`ping-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - This role will be mentioned for prompt portal alerts
 
-#### /staff-settings social-media instagram
+
+_ _
+</staff-settings social-media instagram:1140394502863986710>
 > Manage Instagram settings
 > Passing no option will display the current settings
-- **`post-alert-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`post-alert-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel where new posts will be alerted
-- **`post-management-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`post-management-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel where prepared posts will show up
-- **`ping-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`ping-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role which will be mentioned for new posts
-- **`caption-suffix`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`caption-suffix`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - This will be appended to the generated caption of a post
 
-#### /staff-settings godmode
+</staff-settings godmode:1140394502863986710>
 > Users/Roles with godmode have permissions to do almost everything
 > Passing no option will display the current settings
-- **`set-roles`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-roles`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of roles, separated by semicolon
-- **`set-users`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-users`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of users, separated by semicolon
   
-#### /staff-settings gpt openai-api
+</staff-settings gpt openai-api:1140394502863986710>
 > This OpenAI API key will be used for the whole guild
 > Passing no option will display the current settings (shortens the API key)
-- **`set-key`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-key`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Set the OpenAI API key
-- **`remove-key`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`remove-key`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Remove the OpenAI API key
 
-#### /staff-settings moderation keywords
+
+_ _
+</staff-settings moderation keywords:1140394502863986710>
 > Manage keyword based moderation filters
 > Passing no option will display the current settings
-- **`add-keywords`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`add-keywords`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Add a list of keywords (or sentences) to filter to the existing keywords, semicolon separated
-- **`set-keywords`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-keywords`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Set the list of keywords (or sentences) to filter, semicolon separated
-- **`clear-keywords`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`clear-keywords`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Clear the keyword list
-
-#### /staff-settings moderation openai
+</staff-settings moderation openai:1140394502863986710>
 > Set the alert channel for moderation alerts
 > Passing no option will display the current settings
-- **`alert-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`alert-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Text channel where alerts are posted
 
-#### /staff-settings keep-threads-open
+_ _
+</staff-settings keep-threads-open:1140394502863986710>
 > Threads usually auto-archive after a certain duration. But archived threads have limitations, for example they aren't visible for non-admins under certain circumstances, or cannot be edited by bots. Threads which are inside of a channel specified with this command, will automatically be unarchived as soon as they get archived
 > Passing no option will display the current settings
-- **`set-channels`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`set-channels`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of channels to override the current settings, semicolon separated
-- **`add-channels`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`add-channels`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of channels that will be added to the current list, semicolon separated
-- **`clear-channels`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`clear-channels`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Remove all channels
 
-#### /staff-settings leaderboard set
+</staff-settings leaderboard set:1140394502863986710>
 > Change the settings of a specific leaderboard
-- **`type`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`type`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Available Options:*
-    - [Check the leaderboard type list](../reference/Leaderboards##Types)
+    - [Check the leaderboard type list](<LINK>)
   - The leaderboard type you want to change the settings for
-- **`set-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`set-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel where this leaderboard will be posted
-- **`show-top-x`**
-  - *[Required, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`show-top-x`**__
+  - *[Required, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The amount of entries that will be shown in this leaderboard
 
-#### /staff-settings leaderboard update-all
+_ _
+</staff-settings leaderboard update-all:1140394502863986710>
 > Update all leaderboards
 
-#### /staff-settings leaderboard delete
+</staff-settings leaderboard delete:1140394502863986710>
 > Delete a leaderboard
-- **`type`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`type`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Available Options:*
-    - [Check the leaderboard type list](../reference/Leaderboards##Types)
+    - [Check the leaderboard type list](<https://discord.com/channels/1100933695986208849/1160727372518137918>)
 
-#### /staff-settings leaderboard get
+</staff-settings leaderboard get:1140394502863986710>
 > Get the settings of a leaderboard
-- **`type`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`type`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Available Options:*
-    - [Check the leaderboard type list](../reference/Leaderboards##Types)
+    - [Check the leaderboard type list](<https://discord.com/channels/1100933695986208849/1160727372518137918>)
+
+
+
+

@@ -1,175 +1,186 @@
-#### /chatbot create
+</chatbot create:1134802420359250051>
 > Create a new chatbot
 > Either `version-uuid`, `prompt-id`, `prompt-file` or `prompt` needs to be passed
-- **`name`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The name of the chatbot
-- **`allowed-channels`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`allowed-channels`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of channels where the chatbot can be used, separated by semicolon
-- **`version-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`version-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the prompt version this chatbot uses as system prompt
-- **`prompt-id`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`prompt-id`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The ID of the prompt this chatbot uses as system prompt. Always takes the latest version
-- **`prompt-file`**
-  - *[Optional, Attachment](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Attachment)*
+- __**`prompt-file`**__
+  - *[Optional, Attachment](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The textfile this chatbot uses as system prompt
-- **`prompt`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`prompt`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The system prompt for this chatbot
-- **`model`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`model`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: gpt-3.5-turbo-16k-0613*
-- **`temperature`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`temperature`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: 0*
   - *Max: 2*
   - *Default: 1*
-- **`top-p`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`top-p`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: 0*
   - *Max: 2*
   - *Default: 1*
-- **`presence-penalty`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+
+
+- __**`presence-penalty`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: -2*
   - *Max: 2*
   - *Default: 0*
-- **`frequency-penalty`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`frequency-penalty`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: -2*
   - *Max: 2*
   - *Default: 0*
-- **`max-tokens`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`max-tokens`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Max: Model limit*
   - *Default: 1500*
   - Maximum amount of tokens reserved for Chatbot responses
-- **`is-public`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`is-public`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this bot can only be used by it's creator
-- **`balance`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`balance`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
   - How much balance this bot starts with
-- **`existing-role`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`existing-role`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If true, the system will try to find a role with the chatbot name instead of creating a new one
-- **`disable-automention`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`disable-automention`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If true, this chatbot will not be able to mention other chatbots
 
-#### /chatbot inspect
+
+_ _
+</chatbot inspect:1134802420359250051>
 > Get details about a chatbot
 > When this command is executed in a chatbot library post, it will automatically take said chatbot, in that case `chatbot-role` and `chatbot-uuid` don't need to be provided. But, if you're outside of the chatbot library, either option is necessary
-- **`chatbot-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`chatbot-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role of the chatbot
-- **`chatbot-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`chatbot-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the chatbot
 
-#### /chatbot list
+</chatbot list:1134802420359250051>
 > List all chatbots
 
-#### /chatbot delete
+</chatbot delete:1134802420359250051>
 > Delete a chatbot
 > When this command is executed in a chatbot library post, it will automatically take said chatbot, in that case `chatbot-role` and `chatbot-uuid` don't need to be provided. But, if you're outside of the chatbot library, either option is necessary
-- **`chatbot-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`chatbot-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role of the chatbot
-- **`chatbot-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`chatbot-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the chatbot
 
-#### /chatbot manage
+
+_ _
+</chatbot manage:1134802420359250051>
 > Manage a existing chatbot
 > When this command is executed in a chatbot library post, it will automatically take said chatbot, in that case `chatbot-role` and `chatbot-uuid` don't need to be provided. But, if you're outside of the chatbot library, either option is necessary
-- **`chatbot-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`chatbot-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role of the chatbot
-- **`chatbot-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`chatbot-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the chatbot
-- **`balance`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`balance`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Set the balance of this chatbot
-- **`name`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The name of the chatbot
-- **`allowed-channels`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`allowed-channels`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of channels where the chatbot can be used, separated by semicolon
-- **`version-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`version-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the prompt version this chatbot uses as system prompt
-- **`prompt-id`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`prompt-id`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The ID of the prompt this chatbot uses as system prompt. Always takes the latest version
-- **`prompt-file`**
-  - *[Optional, Attachment](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Attachment)*
+- __**`prompt-file`**__
+  - *[Optional, Attachment](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The textfile this chatbot uses as system prompt
-- **`prompt`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+
+- __**`prompt`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The system prompt for this chatbot
-- **`model`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`model`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: gpt-3.5-turbo-16k-0613*
-- **`temperature`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`temperature`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: 0*
   - *Max: 2*
   - *Default: 1*
-- **`top-p`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`top-p`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: 0*
   - *Max: 2*
   - *Default: 1*
-- **`presence-penalty`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`presence-penalty`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: -2*
   - *Max: 2*
   - *Default: 0*
-- **`frequency-penalty`**
-  - *[Optional, Number](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Number)*
+- __**`frequency-penalty`**__
+  - *[Optional, Number](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Min: -2*
   - *Max: 2*
   - *Default: 0*
-- **`max-tokens`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`max-tokens`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Max: Model limit*
   - *Default: 1500*
   - Maximum amount of tokens reserved for Chatbot responses
-- **`is-public`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+
+
+- __**`is-public`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this bot can only be used by it's creator
-- **`disable-automention`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`disable-automention`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If true, this chatbot will not be able to mention other chatbots
-- **`is-active`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`is-active`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If true, this chatbot will be set to inactive, which means he cannot be called anymore (role gets deleted)
 
-#### /chatbot download-settings
+
+_ _
+</chatbot download-settings:1134802420359250051>
 > Allows to download the settings of all/a specific chatbot in a .csv file
-- **`chatbot-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`chatbot-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If not set, settings of all chatbots will be downloaded
 
-#### /chatbot import-settings
+</chatbot import-settings:1134802420359250051>
 > Import chatbot settings from a .csv file
-- **`csv-file`**
-  - *[Required, Attachment](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Attachment)*
+- __**`csv-file`**__
+  - *[Required, Attachment](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A .csv file containing the chatbot settings
 
-#### /chatbot update-library-post
+</chatbot update-library-post:1134802420359250051>
 > Update the library post of a specific chatbot
 > When this command is executed in a chatbot library post, it will automatically take said chatbot, in that case `chatbot-role` and `chatbot-uuid` don't need to be provided. But, if you're outside of the chatbot library, either option is necessary
-- **`chatbot-role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`chatbot-role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role of the chatbot
-- **`chatbot-uuid`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`chatbot-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the chatbot

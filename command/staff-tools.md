@@ -1,41 +1,42 @@
-#### /staff-tools send-json
+</staff-tools send-json:1134802420359250054>
 > Sends a JSON payload to the chat. Currently only works in the name of Haffeltron
-- **`json`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`json`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The JSON payload to send, for example a embed
-- **`name`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Name of the "User" which sends the content
-- **`avatar-url`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`avatar-url`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The link to the image of the "User" avatar
 
-#### /staff-tools delete-webhooks
+</staff-tools delete-webhooks:1134802420359250054>
 > Delete all webhooks in the current channel
 
-#### /staff-tools bulk-delete
+</staff-tools bulk-delete:1134802420359250054>
 > Delete multiple messages in this channel, going from the latest to the oldest
-- **`amount`**
-  - *[Required, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`amount`**__
+  - *[Required, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The amount of messages to delete
 
-#### /staff-tools update-all-prompts
+</staff-tools update-all-prompts:1134802420359250054>
 > Update all prompt posts
-- **`tier-forum`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`tier-forum`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum channel of the tier you want to update
-- **`cancel`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`cancel`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Cancel an ongoing update process
 
-#### /staff-tools unarchive-forum
+</staff-tools unarchive-forum:1134802420359250054>
 > Open all threads in a forum
-- **`forum`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum of which all threads are opened
 
-#### /staff-tools update-all-chatbot-libraries
+_ _
+</staff-tools update-all-chatbot-libraries:1134802420359250054>
 > Update all chatbot library posts
-- **`cancel`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`cancel`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Cancel an ongoing update process
