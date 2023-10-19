@@ -110,3 +110,10 @@ _ _
 - **[Godmode](<https://discord.com/channels/1100933695986208849/1141470321245954189>)**
 - **[Conversation Export - Templates](<https://discord.com/channels/1100933695986208849/1164336383679275088>)**
 - **[Chatbots - Textfile Injection](<https://discord.com/channels/1100933695986208849/1164348298774200351>)**
+
+
+
+_ _
+_ _
+## Download Documentation
+- The documentation is available in Markdown format [on Github](<https://github.com/collaborative-dynamics-ai/proompter-documentation>), optimized for [Obsidian.md](<https://obsidian.md/>)

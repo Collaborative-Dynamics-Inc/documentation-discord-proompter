@@ -82,6 +82,15 @@ _ _
 
 _ _
 _ _
+## Download Documentation
+- The documentation is available in Markdown format [on Github](<https://github.com/collaborative-dynamics-ai/proompter-documentation>), optimized for [Obsidian.md](<https://obsidian.md/>)
+
+
+
+
+
+_ _
+_ _
 _ _
 **Important Note:**
 > At this point the "balance" is just for development purposes. If you run out of balance, tell me and I will add you more. We will eventually include a payment system, but until we clearly tell you that, you don't need to worry about. Right now it's free

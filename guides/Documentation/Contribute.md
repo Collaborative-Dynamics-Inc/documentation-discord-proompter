@@ -78,7 +78,3 @@ _ _
 - Add a title and description about your pull request
 - "Create pull request"
 ![[Configure pull request.png]]
-
-
-_ _
-**Done**
