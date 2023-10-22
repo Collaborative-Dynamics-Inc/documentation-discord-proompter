@@ -64,27 +64,3 @@ _ _
 **Note:**
 > Context management operations like clear, manipulating or anything related to the system prompt can only be executed by non-admin users if it's in a thread created by said user. Context of public channels can only be changed by admins. Additional users inside a thread can also not change anything in the context right now, only the original creator of the thread.
 > For system-prompt operations it's necessary to also be the creator of the chatbot
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</context load-messages:1118400398970073148>
-- Load older Discord messages into the context of the current channel
-- __**`chatbot`**__
-  - *Required, Role*
-  - The role of the chatbot to load messages
-- __**`amount`**__
-  - *Required, Number*
-  - *Minimum: 1*
-  - *Maximum: 300*
-  - The amount of messages to load

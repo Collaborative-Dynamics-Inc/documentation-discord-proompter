@@ -30,12 +30,38 @@
   - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum where chatbots will show up
 
-</staff-settings prompt-portal:1140394502863986710>
+</staff-settings prompt portal:1140394502863986710>
 - Manage the prompt portal
 > Passing no option will display the current settings
 - __**`ping-role`**__
   - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - This role will be mentioned for prompt portal alerts
+
+
+_ _
+</staff-settings prompt intro-prompt:1140394502863986710>
+> Change the prompt that is used to create the initial prompt post intros
+> Passing no option will display the current settings
+- __**`set-prompt`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *Default: `Introduce yourself and tell me what your capable of`*
+  - The new prompt to use
+- __**`clear-prompt`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - Clear the current prompt (will use the default again)
+
+</staff-settings prompt portal-prompt:1140394502863986710>
+> Change the prompt that is used to create the prompt portal summaries
+> Passing no option will display the current settings
+> **Important:** You need to use the `{{prompt}}` placeholder somewhere in your prompt, else it will not know which prompt to create the summary for
+- __**`set-prompt`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *Default: `Summarize the capabilities of the following persona:\n{{prompt}}`*
+  - The new prompt to use
+- __**`clear-prompt`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - Clear the current prompt (will use the default again)
+
 
 
 _ _
@@ -64,7 +90,9 @@ _ _
 - __**`set-users`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A list of users, separated by semicolon
-  
+
+
+_ _  
 </staff-settings gpt openai-api:1140394502863986710>
 > This OpenAI API key will be used for the whole guild
 > Passing no option will display the current settings (shortens the API key)
@@ -75,8 +103,6 @@ _ _
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Remove the OpenAI API key
 
-
-_ _
 </staff-settings moderation keywords:1140394502863986710>
 > Manage keyword based moderation filters
 > Passing no option will display the current settings

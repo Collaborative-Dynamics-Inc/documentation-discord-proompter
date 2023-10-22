@@ -73,6 +73,11 @@
 - **[/tools](https://discord.com/channels/1100933695986208849/1136861862546391130) **
 
 
+_ _
+## [Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)
+- **[Translate](<https://discord.com/channels/1100933695986208849/1165482103316684950>)**
+
+
 
 
 
@@ -82,6 +87,7 @@ _ _
 ## Guides
 - Quickstart
   - **[Use Slash Commands](<https://discord.com/channels/1100933695986208849/1139918131737923614>)**
+  - **[Use Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)**
   - **[Interact with Chatbots](<https://discord.com/channels/1100933695986208849/1136860797977505832>)**
   - **[Manage Prompts & Posts](<https://discord.com/channels/1100933695986208849/1128859307232985151/1128859323192324116>)**
   - **[Manage Chatbots](<https://discord.com/channels/1100933695986208849/1128859307232985151/1135045933319602186>)**

@@ -11,6 +11,8 @@
 - **[/survey](https://discord.com/channels/1100933695986208849/1143120157342957610) **
 - **[/tools](https://discord.com/channels/1100933695986208849/1136861862546391130) **
 
+## [Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)
+- **[Translate](<https://discord.com/channels/1100933695986208849/1165482103316684950>)**
 
 
 
@@ -20,6 +22,7 @@ _ _
 ## Guides
 - Quickstart
   - **[Use Slash Commands](<https://discord.com/channels/1100933695986208849/1139918131737923614>)**
+  - **[Use Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)**
   - **[Interact with Chatbots](<https://discord.com/channels/1100933695986208849/1136860797977505832>)**
 - Good to Know
   - **[Developer Mode](<https://discord.com/channels/1100933695986208849/1149283458905030696>)**
