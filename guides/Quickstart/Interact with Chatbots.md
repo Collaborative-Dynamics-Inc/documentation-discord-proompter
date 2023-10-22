@@ -27,7 +27,7 @@
 ---
 
 ## Context Management
-> If you delete or edit a message, it will do so in the context too. You can get more details about the loaded context be using the [**/context**](proompter-documentation/command/context.md####/context%20details) command
+> If you delete or edit a message, it will do so in the context too. You can get more details about the loaded context be using the [**/context**](proompter-documentation/slash-command/context.md####/context%20details) command
 
 
 

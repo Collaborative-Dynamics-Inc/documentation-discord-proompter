@@ -30,12 +30,35 @@
   - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
   - The forum where chatbots will show up
 
-#### /staff-settings prompt-portal
+#### /staff-settings prompt portal
 - Manage the prompt portal
 > Passing no option will display the current settings
 - **`ping-role`**
   - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
   - This role will be mentioned for prompt portal alerts
+
+#### /staff-settings prompt intro-prompt
+> Change the prompt that is used to create the initial prompt post intros
+> Passing no option will display the current settings
+- **`set-prompt`**
+  - *[Optional, String](../reference/Slash%20Commands####String)*
+  - *Default: `Introduce yourself and tell me what your capable of`*
+  - The new prompt to use
+- **`clear-prompt`**
+  - *[Optional, Boolean](../reference/Slash%20Commands####Boolean)*
+  - Clear the current prompt (will use the default again)
+
+#### /staff-settings prompt portal-prompt
+> Change the prompt that is used to create the prompt portal summaries
+> Passing no option will display the current settings
+> **Important:** You need to use the `{{prompt}}` placeholder somewhere in your prompt, else it will not know which prompt to create the summary for
+- **`set-prompt`**
+  - *[Optional, String](../reference/Slash%20Commands####String)*
+  - *Default: `Summarize the capabilities of the following persona:\n{{prompt}}`*
+  - The new prompt to use
+- **`clear-prompt`**
+  - *[Optional, Boolean](../reference/Slash%20Commands####Boolean)*
+  - Clear the current prompt (will use the default again)
 
 #### /staff-settings social-media instagram
 > Manage Instagram settings
