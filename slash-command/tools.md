@@ -1,32 +1,31 @@
-#### /tools token-counter
+</tools token-counter:1134802420359250053>
 > Count how many tokens a prompt/file uses
-- **`model`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`model`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Which encoding should be used to calculate the tokens? Currently all models have the same encoding
-- **`prompt`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`prompt`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A simple text input to encode
-- **`prompt-file`**
-  - *[Optional, Attachment](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Attachment)*
+- __**`prompt-file`**__
+  - *[Optional, Attachment](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A file which gets encoded
 - Either `prompt` or `prompt-file` needs to be passed
 
-#### /tools tti-prompt
+</tools tti-prompt:1134802420359250053>
 > Create a text-to-image generator prompt based on a description
-- **`description`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`description`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Description to create the prompt based on
 
-#### /tools discord-id
-> Get the [ID of a user, role or channel](../guides/Good%20to%20Know/Get%20IDs%20of%20Roles-Users-Channels)
+</tools discord-id:1134802420359250053>
+> Get the [ID of a user, role or channel](<https://discord.com/channels/1100933695986208849/1149283993548759090>)
 > Passing no argument will show your own user ID
-- **`user`**
-  - *[Optional, User](proompter-documentation/guides/Quickstart/Slash%20Commands.md####User)*
+- __**`user`**__
+  - *[Optional, User](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The user you want to get the ID for
-- **`role`**
-  - *[Optional, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`role`**__
+  - *[Optional, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role you want to get the ID for
-- **`channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel you want to get the ID for
-  

@@ -1,68 +1,72 @@
-#### /find prompt by-name
+</find prompt by-name:1143094441465348116>
 > Keyword search based on prompt names
-- **`name`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The name you want to search for
-- **`tier`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`tier`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Tier identifier. Limit the search to only a specific tier
-- **`max-results`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`max-results`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
   - *Max value: 50*
   - The maximum amount of results which get provided
-- **`include-ids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-ids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: true*
   - If true, prompt IDs get included in the results. Useful for Proompters
-- **`include-uuids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-uuids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: false*
   - If true, version UUIDs get included in the results. Useful for Proompters
 
-#### /find prompt by-description
+
+_ _
+</find prompt by-description:1143094441465348116>
 > Keyword search based on portal description
-- **`description`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`description`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The description you want to search for
-- **`tier`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`tier`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Tier identifier. Limit the search to only a specific tier
-- **`max-results`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`max-results`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
   - *Max value: 50*
   - The maximum amount of results which get provided
-- **`include-ids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-ids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: true*
   - If true, prompt IDs get included in the results. Useful for Proompters
-- **`include-uuids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-uuids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: false*
   - If true, version UUIDs get included in the results. Useful for Proompters
 
-#### /find prompt by-tag
+
+_ _
+</find prompt by-tag:1143094441465348116>
 > Keyword search based on prompt tags
-- **`tag`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`tag`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The tag you want to search for
-- **`tier`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`tier`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Tier identifier. Limit the search to only a specific tier
-- **`max-results`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`max-results`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
   - *Max value: 50*
   - The maximum amount of results which get provided
-- **`include-ids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-ids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: true*
   - If true, prompt IDs get included in the results. Useful for Proompters
-- **`include-uuids`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`include-uuids`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: false*
   - If true, version UUIDs get included in the results. Useful for Proompters
 
-#### /find chatbot
+</find chatbot:1143094441465348116>
 > Lists all chatbots you have permission for

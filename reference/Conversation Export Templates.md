@@ -1,6 +1,6 @@
 # Conversation Export Templates
 
-> The [/conversation download](proompter-documentation/slash-command/conversation.md####/conversation%20download) allows to export conversations into nicely formatted files. Currently JSON and Markdown are supported
+> The [/conversation download](<https://discord.com/channels/1100933695986208849/1164286329165717575>) allows to export conversations into nicely formatted files
 
 ## Default Templates
 `JSON`
@@ -69,7 +69,7 @@ author_name,content,token_count,message_timestamp
 - `{{messageTimestamp(-7)}}` = UTC-7
 
 
-### Use custom Templates
-> You can create and safe your own templates. If it's a one-time use of a specific template, you can provide it as `template` option in the  [/conversation download](proompter-documentation/slash-command/conversation.md####/conversation%20download) command
-> If you want to make it your new default template, you can safe it in your profile, by using the [/profile templates set](proompter-documentation/slash-command/profile.md####/profile%20templates%20set) command
 
+## Use custom Templates
+> You can create and safe your own templates. If it's a one-time use of a specific template, you can provide it as `template` option in the [/conversation download](<https://discord.com/channels/1100933695986208849/1164286329165717575>) command
+> If you want to make it your new default template, you can safe it in your profile, by using the [/profile templates set](<https://discord.com/channels/1100933695986208849/1153688751260840108>) command

@@ -1,7 +1,7 @@
-#### /index
+</index:1140394502863986711>
 > Get a full list of prompts, based on some filters
 - `filter`
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - A selection of one or more filters
   - Options:
     - *name*
@@ -11,5 +11,5 @@
 	- *token_count*
 	- Each option can be either `ASC` (ascending) or `DESC` (descending)
 
-## IMPORTANT
+**IMPORTANT**
 - This command is currently broken and theres no ETA when it's gonna be fixed as the issue is still unknown

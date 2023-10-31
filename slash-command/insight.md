@@ -1,11 +1,11 @@
-#### /insight channel-access
+</insight channel-access:1148031926012227627>
 > Get a list of all roles which have access to the current channel
 
-#### /insight roles
+</insight roles:1148031926012227627>
 > Get a list of all members with a role
-- **`role-members`**
-  - *[Required, Role](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Role)*
+- __**`role-members`**__
+  - *[Required, Role](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The role to get the memberlist for
 
-#### /insight statistics
-> Get some insight into Proompter statistics for your guild
+</insight statistics:1148031926012227627>
+> Get some insight into Proompter statistics
