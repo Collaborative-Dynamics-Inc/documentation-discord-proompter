@@ -1,92 +1,98 @@
-#### /tier register-tier
+</tier register-tier:1128274313259257856>
 > Register a new tier
-- **`name`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Name of this tier
-- **`identifier`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`identifier`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Identifier shortcut for this tier
-- **`forum-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum channel in which the prompts of this tier are
-- **`portal-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`portal-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel in which the portal will be
-- **`update-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`update-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Update channel for prompt alerts
-- **`embed-color`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
-  - A hexadecimal color code, e.g: `#ffffff`**
-- **`display-priority`**
-  - *[Required, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`embed-color`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - A hexadecimal color code, e.g: `#ffffff`**__
+- __**`display-priority`**__
+  - *[Required, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - 1 is the highest priority
-- **`description`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`description`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Description of the tier which will show between the title and the first embed
-- **`is-public`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`is-public`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this tier is only visible for roles with `VIEW` permissions
-- **`role-permissions`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`role-permissions`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Permission overrides for roles
 
-#### /tier list-tiers
+
+_ _
+</tier list-tiers:1128274313259257856>
 > Lists all forum-channels which have a tier associated
 
-#### /tier inspect-tier
+</tier inspect-tier:1128274313259257856>
 > Shows all details about a tier
-- **`forum-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The forum-channel the requested tier is associated with
 
-#### /tier manage-tier
+
+_ _
+</tier manage-tier:1128274313259257856>
 > Edit a existing tier
-- **`current-identifier`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`current-identifier`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The identifier of the tier you want to edit
-- **`name`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`name`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New name
-- **`identifier`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`identifier`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New identifier
-- **`forum-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New forum channel in which the prompts of this tier are
-- **`portal-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`portal-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New channel in which the portal will be
-- **`update-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`update-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New update channel for prompt alerts
-- **`embed-color`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
-  - New hexadecimal color code, e.g: `#ffffff`**
-- **`display-priority`**
-  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+- __**`embed-color`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - New hexadecimal color code, e.g: `#ffffff`**__
+- __**`display-priority`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - 1 will be the highest tier in the list, 2 will be below 1 etc. Has to be unique
-- **`description`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`description`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - New description of the tier which will show between the title and the first embed
-- **`is-public`**
-  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+- __**`is-public`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this tier is only visible for roles with `VIEW` permissions
-- **`role-permissions`**
-  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+- __**`role-permissions`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Permission overrides for roles. Public channels have `VIEW` for everyone by default
 
-#### /tier delete-tier
+
+_ _
+</tier delete-tier:1128274313259257856>
 > Delete a tier entry
-- **`forum-channel`**
-  - *[Required, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`forum-channel`**__
+  - *[Required, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The channel which the tier corresponds to. Only delets the tier in the Database, nothing else. Portal embeds need to be deleted manually
 
-#### /tier generate-portal
+</tier generate-portal:1128274313259257856>
 > Generates the portal embeds, old portal embed messages will be deleted
-- **`portal-channel`**
-  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+- __**`portal-channel`**__
+  - *[Optional, Channel](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If not passed, the current channel will be used as portal-channel
 
-#### /tier generate-portal-hub
+</tier generate-portal-hub:1128274313259257856>
 > Sends a portal hub embed in the current channel

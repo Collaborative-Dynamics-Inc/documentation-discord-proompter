@@ -4,11 +4,12 @@
 
 - Open the server settings
 - Go to "Enable Community"
-![[Enable Community.png]]
-
-
 - Click "Get started"
-![[Setup Community.png]]
-
 - Follow the instructions on the screen
 - Done. Your server is now a community server
+
+
+![[Enable Community.png]]
+![[Setup Community.png]]
+
+
