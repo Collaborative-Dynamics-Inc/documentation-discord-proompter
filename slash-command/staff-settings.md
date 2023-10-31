@@ -53,7 +53,6 @@ _ _
 </staff-settings prompt portal-prompt:1140394502863986710>
 > Change the prompt that is used to create the prompt portal summaries
 > Passing no option will display the current settings
-> **Important:** You need to use the `{{prompt}}` placeholder somewhere in your prompt, else it will not know which prompt to create the summary for
 - __**`set-prompt`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: `Summarize the capabilities of the following persona`*
