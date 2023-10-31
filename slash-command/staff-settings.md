@@ -51,7 +51,6 @@
 #### /staff-settings prompt portal-prompt
 > Change the prompt that is used to create the prompt portal summaries
 > Passing no option will display the current settings
-> **Important:** You need to use the `{{prompt}}` placeholder somewhere in your prompt, else it will not know which prompt to create the summary for
 - **`set-prompt`**
   - *[Optional, String](../reference/Slash%20Commands####String)*
   - *Default: `Summarize the capabilities of the following persona`*
