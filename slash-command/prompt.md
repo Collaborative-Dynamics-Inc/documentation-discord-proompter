@@ -9,15 +9,24 @@
 
 #### /prompt list-versions
 > List all versions of a prompt
+> If no ID is provided, the prompt in the current channel is used, if available
 - **`prompt-id`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - The ID of the prompt you want to list all versions for
 
 #### /prompt inspect-version
 > Get all details about a specific version
+> If no UUID is provided, the prompt in the current channel is used, if available
 - **`version-uuid`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - The UUID of the version you want to inspect
+
+#### /prompt list-changes
+> List all changelogs of a prompt
+> If no ID is provided, the prompt in the current channel is used, if available
+- **`prompt-id`**
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - The ID of the propt you want to get the changelogs for
 
 #### /prompt create
 > Create a new prompt
@@ -107,14 +116,16 @@
 
 #### /prompt delete-prompt
 > Delete a prompt and all it's versions
+> If no ID is provided, the prompt in the current channel is used, if available
 - **`prompt-id`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - The ID of the prompt you want to delete
 
 #### /prompt delete-prompt-version
 - Delete a specific version of a prompt
-- **`prompt-id`**
-  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+> If no UUID is provided, the prompt in the current channel is used, if available
+- **`version-uuid`**
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - The UUID of the prompt version you want to delete
 
 #### /prompt update

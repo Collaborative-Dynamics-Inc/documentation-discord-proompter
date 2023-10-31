@@ -1,3 +1,16 @@
+#### /conversation start
+> Start a new conversation
+- **`name`**
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - The title of the conversation thread
+- **`private`**
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+  - *Default: true*
+  - Wether the thread should be a public or private thread
+
+#### /conversation list
+> List all conversations you have created
+
 #### /conversation download
 > Download a conversation based on [custom templates](<LINK_TO_EXPORT_TEMPLATE>)
 - **`format`**
