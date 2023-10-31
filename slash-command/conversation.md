@@ -1,3 +1,16 @@
+</conversation start:1163814409974591498>
+> Start a new conversation
+- **`name`**
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - The title of the conversation thread
+- **`private`**
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *Default: true*
+  - Wether the thread should be a public or private thread
+
+</conversation list:1163814409974591498>
+> List all conversations you have created
+
 </conversation download:1163814409974591498>
 > Download a conversation based on [custom templates](<https://discord.com/channels/1100933695986208849/1164336383679275088>)
 - __**`format`**__
