@@ -9,15 +9,24 @@
 
 </prompt list-versions:1125127413987295334>
 > List all versions of a prompt
+> If no ID is provided, the prompt in the current channel is used, if available
 - __**`prompt-id`**__
-  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The ID of the prompt you want to list all versions for
 
 </prompt inspect-version:1125127413987295334>
 > Get all details about a specific version
+> If no UUID is provided, the prompt in the current channel is used, if available
 - __**`version-uuid`**__
-  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the version you want to inspect
+
+</prompt list-changes:1125127413987295334>
+> List all changelogs of a prompt
+> If no ID is provided, the prompt in the current channel is used, if available
+- **`prompt-id`**
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - The ID of the propt you want to get the changelogs for
 
 
 _ _
@@ -117,14 +126,16 @@ _ _
 _ _
 </prompt delete-prompt:1125127413987295334>
 > Delete a prompt and all it's versions
+> If no ID is provided, the prompt in the current channel is used, if available
 - __**`prompt-id`**__
-  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The ID of the prompt you want to delete
 
 </prompt delete-prompt-version:1125127413987295334>
 - Delete a specific version of a prompt
-- __**`prompt-id`**__
-  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+> If no UUID is provided, the prompt in the current channel is used, if available
+- __**`version-uuid`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The UUID of the prompt version you want to delete
 
 </prompt update:1125127413987295334>

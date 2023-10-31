@@ -56,7 +56,7 @@ _ _
 > **Important:** You need to use the `{{prompt}}` placeholder somewhere in your prompt, else it will not know which prompt to create the summary for
 - __**`set-prompt`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
-  - *Default: `Summarize the capabilities of the following persona:\n{{prompt}}`*
+  - *Default: `Summarize the capabilities of the following persona`*
   - The new prompt to use
 - __**`clear-prompt`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
