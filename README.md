@@ -65,6 +65,9 @@
 - [Chatbots - Textfile Injection](./reference/Chatbot%20Attachment%20Injection)
 
 
+### Experimental - Closed Alpha
+- [Workflows](./reference/Workflow/Workflow%20Schema)
+
 
 
 
