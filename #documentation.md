@@ -4,6 +4,7 @@
 - **[/balance](https://discord.com/channels/1100933695986208849/1136860811189551195) **
 - **[/context](https://discord.com/channels/1100933695986208849/1136860935991083079) **
 - **[/conversation](<https://discord.com/channels/1100933695986208849/1164286329165717575>)**
+- **[/debug](<https://discord.com/channels/1100933695986208849/1171403530649735169>)**
 - **[/download](<https://discord.com/channels/1100933695986208849/1149342624931647608>)**
 - **[/find](https://discord.com/channels/1100933695986208849/1136861683936141394) **
 - **[/profile](<https://discord.com/channels/1100933695986208849/1153688751260840108>)**
@@ -13,6 +14,7 @@
 
 ## [Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)
 - **[Translate](<https://discord.com/channels/1100933695986208849/1165482103316684950>)**
+- **[Bookmark Message](<https://discord.com/channels/1100933695986208849/1171412052389146665>)**
 
 
 

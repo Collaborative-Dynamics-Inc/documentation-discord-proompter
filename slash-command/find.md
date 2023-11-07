@@ -5,11 +5,11 @@
   - The name you want to search for
 - __**`tier`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - __**`max-results`**__
   - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - __**`include-ids`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
@@ -29,11 +29,11 @@ _ _
   - The description you want to search for
 - __**`tier`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - __**`max-results`**__
   - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - __**`include-ids`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
@@ -53,11 +53,11 @@ _ _
   - The tag you want to search for
 - __**`tier`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - __**`max-results`**__
   - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - __**`include-ids`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
@@ -68,5 +68,18 @@ _ _
   - *Default: false*
   - If true, version UUIDs get included in the results. Useful for Proompters
 
-</find chatbot:1143094441465348116>
-> Lists all chatbots you have permission for
+
+_ _
+</find chatbot by-name:1143094441465348116>
+> Keyword search based on chatbot names
+- __**`name`**__
+  - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - The name you want to search for
+- __**`tier`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
+- __**`max-results`**__
+  - *[Optional, Integer](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - *Default: 10*
+  - *Max value: 100*
+  - The maximum amount of results which get provided
