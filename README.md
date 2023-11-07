@@ -6,6 +6,7 @@
 - [/close-thread](proompter-documentation/slash-command/close-thread.md)
 - [/context](proompter-documentation/slash-command/context.md) 
 - [/conversation](proompter-documentation/slash-command/conversation.md)
+- [/debug](proompter-documentation/slash-command/debug.md)
 - [/doctor](proompter-documentation/slash-command/doctor.md) 
 - [/download](proompter-documentation/slash-command/download.md)
 - [/find](proompter-documentation/slash-command/find.md) 
@@ -28,6 +29,7 @@
 
 ## [Context Menu Commands](./guides/Quickstart/Context%20Menu%20Commands)
 - **[Translate](./context-menu-command/Translate)**
+- **[Bookmark Message](./context-menu-command/Bookmark%20Message)**
 
 
 

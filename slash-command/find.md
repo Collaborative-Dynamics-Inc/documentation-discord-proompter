@@ -5,11 +5,11 @@
   - The name you want to search for
 - **`tier`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - **`max-results`**
   - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - **`include-ids`**
   - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
@@ -27,11 +27,11 @@
   - The description you want to search for
 - **`tier`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - **`max-results`**
   - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - **`include-ids`**
   - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
@@ -49,11 +49,11 @@
   - The tag you want to search for
 - **`tier`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
-  - Tier identifier. Limit the search to only a specific tier
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
 - **`max-results`**
   - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
   - *Default: 10*
-  - *Max value: 50*
+  - *Max value: 100*
   - The maximum amount of results which get provided
 - **`include-ids`**
   - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
@@ -64,5 +64,16 @@
   - *Default: false*
   - If true, version UUIDs get included in the results. Useful for Proompters
 
-#### /find chatbot
-> Lists all chatbots you have permission for
+#### /find chatbot by-name
+> Keyword search based on chatbot names
+- **`name`**
+  - *[Required, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - The name you want to search for
+- **`tier`**
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - Tier identifiers, separated by semicolons. For example: `T1;T2` searches only in Tier 1 & 2
+- **`max-results`**
+  - *[Optional, Integer](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Integer)*
+  - *Default: 10*
+  - *Max value: 100*
+  - The maximum amount of results which get provided
