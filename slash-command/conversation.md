@@ -3,9 +3,9 @@
 - **`name`**
   - *[Required, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - The title of the conversation thread
-- **`private`**
+- **`public`**
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
-  - *Default: true*
+  - *Default: false*
   - Whether the thread should be a public or private thread
 
 </conversation list:1163814409974591498>
