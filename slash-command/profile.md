@@ -101,6 +101,7 @@ _ _
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Reset all settings
 
+_ _
 </profile gpt-settings-global set:1153117013506543626>
 - Define your GPT settings
 - __**`model`**__

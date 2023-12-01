@@ -45,6 +45,9 @@ _ _
 - __**`redirect-url`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - For prompts that are available outside of the Discord, for example a 3rd party marketplace. If this value is provided, an additional button will be added to the prompt post
+- __**`redirect-label`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - The label shown on the `redirect-url` button. Default: `Go to marketplace`
 - __**`is-public`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this prompt will only available to it's Proompters
@@ -92,14 +95,23 @@ _ _
 - __**`redirect-url`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - For prompts that are available outside of the Discord, for example a 3rd party marketplace. If this value is provided, an additional button will be added to the prompt post
+- __**`remove-redirect-url`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - If true, the redirect URL will be removed
+- __**`redirect-label`**__
+  - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - The label shown on the `redirect-url` button. Default: `Go to marketplace`
+- __**`remove-redirect-label`**__
+  - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
+  - If true, the redirect label will be removed
 - __**`is-public`**__
   - *[Optional, Boolean](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - If false, this prompt will only available to it's Proompters
+
+
 - __**`class-rating`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Can be used to classify prompts in a S-D rating
-
-
 - __**`new-prompt-intro`**__
   - *[Optional, String](<https://discord.com/channels/1100933695986208849/1139918131737923614/1149278889156296724>)*
   - Manually set a new prompt intro

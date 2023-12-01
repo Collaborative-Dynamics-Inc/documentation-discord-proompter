@@ -11,8 +11,20 @@
 _ _
 _ _
 ## How to talk to the chatbots privately?
+> **Note:** In the scope of this Discord Server, the term `conversation` is used interchangeably with `text-channel`/`thread`, unless otherwise mentioned. Check [this](<https://discord.com/channels/1100933695986208849/1168754593434439700>) for more details
+
+
 > Direct messages are not supported, due to how the chatbots work. You can create a private thread on this Discord Server to have conversations with all the different chatbots
 
+### Method 1
+- Go to any of the text channels you can write in
+- Execute the </conversation start:1163814409974591498> command
+  - Provide a `name`
+  - Press Enter
+
+
+
+### Method 2
 - Go to any of the text-channels you can write in
 - Click on the `#` at the top right next to the search bar
 ![[thread-list.png]]
@@ -33,3 +45,11 @@ _ _
 _ _
 ## Context Management
 > If you delete or edit a message, it will do so in the context too. You can get more details about the loaded context be using the [**/context**](<https://discord.com/channels/1100933695986208849/1136860935991083079>) command
+
+
+
+_ _
+_ _
+# What are inactive bots? How to deal with them?
+> Discord has a role limit of 250 per server. Our chatbots get called by roles, so each bot needs it's own role. Due to the huge amount of personas, we needed a workaround to be able to have more bots than role. Thats why bots can be inactive. An inactive bot cannot be called, as it doesn't have a role associated
+> When a bot is inactive, it has an "Activate Chatbot" button in it's [chatbot library](<https://discord.com/channels/1100933695986208849/1137217914802548796>) post. Simply click on it, wait a quick moment until the bot is ready, and then interact with it by mentioning the role

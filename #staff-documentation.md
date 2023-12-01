@@ -56,6 +56,7 @@
 - **[/close-thread](<https://discord.com/channels/1100933695986208849/1149296440288481352>)**
 - **[/context](https://discord.com/channels/1100933695986208849/1136860935991083079) **
 - **[/conversation](<https://discord.com/channels/1100933695986208849/1164286329165717575>)**
+- **[/dashboard](<https://discord.com/channels/1100933695986208849/1179982709993504848>)**
 - **[/debug](<https://discord.com/channels/1100933695986208849/1171403530649735169>)**
 - **[/doctor](https://discord.com/channels/1100933695986208849/1128700322638991420) **
 - **[/download](<https://discord.com/channels/1100933695986208849/1149342624931647608>)**
@@ -70,9 +71,9 @@
 - **[/social-media](https://discord.com/channels/1100933695986208849/1128700831311597638) **
 - **[/staff-conversation](https://discord.com/channels/1100933695986208849/1143118625683804181) **
 - **[/staff-settings](https://discord.com/channels/1100933695986208849/1140580334652624997) **
+
 - **[/staff-survey](https://discord.com/channels/1100933695986208849/1143120309810114711) **
 - **[/staff-tools](https://discord.com/channels/1100933695986208849/1140580601842376715) **
-
 - **[/survey](https://discord.com/channels/1100933695986208849/1143120157342957610) **
 - **[/tier](https://discord.com/channels/1100933695986208849/1128700903050977350) **
 - **[/time](https://discord.com/channels/1100933695986208849/1128701070315626537) **
@@ -95,7 +96,9 @@ _ _
 - Quickstart
   - **[Use Slash Commands](<https://discord.com/channels/1100933695986208849/1139918131737923614>)**
   - **[Use Context Menu Commands](<https://discord.com/channels/1100933695986208849/1165481852358905888>)**
+  - **[Balance FAQ](<https://discord.com/channels/1100933695986208849/1173620749827842078>)**
   - **[Interact with Chatbots](<https://discord.com/channels/1100933695986208849/1136860797977505832>)**
+  - **[Change GPT Settings](<https://discord.com/channels/1100933695986208849/1173589636573057034>)**
   - **[Manage Prompts & Posts](<https://discord.com/channels/1100933695986208849/1128859307232985151/1128859323192324116>)**
   - **[Manage Chatbots](<https://discord.com/channels/1100933695986208849/1128859307232985151/1135045933319602186>)**
 - Create a Tier
@@ -112,17 +115,19 @@ _ _
 
 
 
+
+
 _ _
 _ _
 ## Reference
-- **[Token Usage & Balance](<https://discord.com/channels/1100933695986208849/1136860644021379173>)**
-- **[Prompt Filename Pattern](<https://discord.com/channels/1100933695986208849/1128855362301337731>)**
-- **[Tier Identifiers in CD](<https://discord.com/channels/1100933695986208849/1128855183917596703>)**
-- **[Leaderboards](<https://discord.com/channels/1100933695986208849/1163835834718507119>)**
-- **[Glossary](<https://discord.com/channels/1100933695986208849/1128854716340776992>)**
-- **[Godmode](<https://discord.com/channels/1100933695986208849/1141470321245954189>)**
+- **[Balance Packages](<https://discord.com/channels/1100933695986208849/1173580792660775023>)**
+- **[Conversations](<https://discord.com/channels/1100933695986208849/1168754593434439700>)**
 - **[Conversation Export - Templates](<https://discord.com/channels/1100933695986208849/1164336383679275088>)**
 - **[Chatbots - Textfile Injection](<https://discord.com/channels/1100933695986208849/1164348298774200351>)**
+- **[Tier Identifiers in CD](<https://discord.com/channels/1100933695986208849/1128855183917596703>)**
+- **[Prompt Filename Pattern](<https://discord.com/channels/1100933695986208849/1128855362301337731>)**
+- **[Glossary](<https://discord.com/channels/1100933695986208849/1128854716340776992>)**
+- **[Leaderboards](<https://discord.com/channels/1100933695986208849/1163835834718507119>)**
 
 
 ### Experimental - Closed Alpha
