@@ -39,7 +39,6 @@
 > You can think of the backslashes as being a toggle to show the "raw" value instead of formatting it
 
 > This can be especially useful when Discord has struggles to autocomplete the role of a chatbot you want to interact with. For those cases, the raw role ID shows in the [chatbot library](https://discord.com/channels/1100933695986208849/1137217914802548796) post of each bot
-> *Psst, want to talk to Discords AI powered Chatbot "Clyde"? Use Discords `/msg` command and paste 1081004946872352958 into the user option*
 
 
 ---

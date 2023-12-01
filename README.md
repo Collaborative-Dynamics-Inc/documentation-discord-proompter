@@ -6,6 +6,7 @@
 - [/close-thread](proompter-documentation/slash-command/close-thread.md)
 - [/context](proompter-documentation/slash-command/context.md) 
 - [/conversation](proompter-documentation/slash-command/conversation.md)
+- [/dashboard](proompter-documentation/slash-command/dashboard.md)
 - [/debug](proompter-documentation/slash-command/debug.md)
 - [/doctor](proompter-documentation/slash-command/doctor.md) 
 - [/download](proompter-documentation/slash-command/download.md)
@@ -39,7 +40,9 @@
 - Quickstart
 	- [Use Slash Commands](./guides/Quickstart/Slash%20Commands)
 	- [Use Context Menu Commands](./guides/Quickstart/Context%20Menu%20Commands)
+	- [Balance FAQ](./guides/Balance)
 	- [Interact with Chatbots](proompter-documentation/guides/Quickstart/Interact%20with%20Chatbots.md)
+	- [Change GPT Settings](proompter-documentation/guides/LLM/How%20to%20change%20GPT%20settings.md)
 	- [Prompts & Posts](./guides/Quickstart/Prompts%20&%20Posts)
 	- [Chatbots](./guides/Quickstart/Chatbots)
 - Create a Tier
@@ -57,14 +60,15 @@
 
 
 ## Reference
-- [Token Usage & Balance](./reference/Token%20Usage%20&%20Balance)
-- [Prompt Filename Pattern](./reference/Prompt%20Filename%20Pattern)
-- [Tier Identifiers in CD](./reference/Tier%20Identifiers%20in%20CD)
-- [Leaderboards](./reference/Leaderboards)
-- [Glossary](./reference/Glossary)
-- [Godmode](./reference/Godmode)
+- [Balance Packages](./reference/Balance%20Packages)
+- [Conversations](./reference/Conversation)
 - [Conversation Export - Templates](./reference/Conversation%20Export%20Templates)
 - [Chatbots - Textfile Injection](./reference/Chatbot%20Attachment%20Injection)
+- [Tier Identifiers in CD](./reference/Tier%20Identifiers%20in%20CD)
+- [Prompt Filename Pattern](./reference/Prompt%20Filename%20Pattern)
+- [Leaderboards](./reference/Leaderboards)
+- [Godmode](./reference/Godmode)
+- [Glossary](./reference/Glossary)
 
 
 ### Experimental - Closed Alpha

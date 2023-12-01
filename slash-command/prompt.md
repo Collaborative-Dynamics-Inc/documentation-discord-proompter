@@ -43,6 +43,9 @@
 - **`redirect-url`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - For prompts that are available outside of the Discord, for example a 3rd party marketplace. If this value is provided, an additional button will be added to the prompt post
+- **`redirect-label`**
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - The label shown on the `redirect-url` button. Default: `Go to marketplace`
 - **`is-public`**
   - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
   - If false, this prompt will only available to it's Proompters
@@ -86,6 +89,15 @@
 - **`redirect-url`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - For prompts that are available outside of the Discord, for example a 3rd party marketplace. If this value is provided, an additional button will be added to the prompt post
+- **`remove-redirect-url`**
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+  - If true, the redirect URL will be removed
+- **`redirect-label`**
+  - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
+  - The label shown on the `redirect-url` button. Default: `Go to marketplace`
+- **`remove-redirect-label`**
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+  - If true, the redirect label will be removed
 - **`is-public`**
   - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
   - If false, this prompt will only available to it's Proompters

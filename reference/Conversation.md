@@ -11,3 +11,7 @@ There are two types of conversations:
 
 **Non-public Conversations**
 > Due to a lack of a better term I call the second option "non-public", because they are not necessarily private. Threads belong into this category. In these conversations, not only server admins, but also the creator of the thread has permissions to manipulate the context of chatbots with the [/context](../../slash-command/context) command
+
+
+
+> **Note:** In the scope of this Discord Server, the term `conversation` is used interchangeably with `text-channel`/`thread`, unless otherwise mentioned
