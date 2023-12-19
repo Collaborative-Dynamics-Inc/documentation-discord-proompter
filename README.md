@@ -11,8 +11,7 @@
 - [/doctor](proompter-documentation/slash-command/doctor.md) 
 - [/download](proompter-documentation/slash-command/download.md)
 - [/find](proompter-documentation/slash-command/find.md) 
-- [/index](proompter-documentation/slash-command/index.md) 
-- [/insight](proompter-documentation/slash-command/insight.md) 
+- [/index](proompter-documentation/slash-command/index.md)
 - [/portal](proompter-documentation/slash-command/portal.md) 
 - [/profile](proompter-documentation/slash-command/profile.md)
 - [/prompt](proompter-documentation/slash-command/prompt.md) 
@@ -31,6 +30,7 @@
 ## [Context Menu Commands](./guides/Quickstart/Context%20Menu%20Commands)
 - **[Translate](./context-menu-command/Translate)**
 - **[Bookmark Message](./context-menu-command/Bookmark%20Message)**
+- **[Dashboard](./context-menu-command/Translate)**
 
 
 

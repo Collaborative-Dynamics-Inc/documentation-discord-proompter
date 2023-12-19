@@ -13,12 +13,8 @@
 
 
 ## Limitations
-There are certain limitations about how settings are applied
-- [Public conversations](../../reference/Conversation)
-> Settings are not applied at all
-- [Private conversations](../../reference/Conversation)
-> If you are an admin of the conversation, the settings will be applied, otherwise not
-
+> Due to the current infrastructure we have to limit custom model settings to [private conversations](../../reference/Conversation)
+> If you interact with the chatbots in a [public conversations](../../reference/Conversation), the default model (`gpt-3.5-turbo-16k`) is used
 
 
 > **Note:** Currently it's only possible to change your global settings. That means, they apply to all chatbots. You cannot change your preferences for specific bots/conversations

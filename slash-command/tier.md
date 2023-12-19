@@ -30,6 +30,12 @@
 - **`role-permissions`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - Permission overrides for roles
+- **`chatbot-forum-channel`**
+  - *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+  - Define a separate forum where the chatbot posts for this Tier will be created
+- **`hide-download-button`**
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+  - If true, no "Download" button will be added to the prompt posts
 
 #### /tier list-tiers
 > Lists all forum-channels which have a tier associated
@@ -75,6 +81,11 @@
 - **`role-permissions`**
   - *[Optional, String](proompter-documentation/guides/Quickstart/Slash%20Commands.md####String)*
   - Permission overrides for roles. Public channels have `VIEW` for everyone by default
+- *[Optional, Channel](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Channel)*
+  - Define a separate forum where the chatbot posts for this Tier will be created
+- **`hide-download-button`**
+  - *[Optional, Boolean](proompter-documentation/guides/Quickstart/Slash%20Commands.md####Boolean)*
+  - If true, no "Download" button will be added to the prompt posts
 
 #### /tier delete-tier
 > Delete a tier entry

@@ -6,7 +6,6 @@
 - **[Free monthly balance](#Free%20monthly%20balance)**
 - **[Token Pricing](#Token%20Pricing)**
 - **[Token Price Multiplicator](#Token%20Price%20Multiplicator)**
-- **[Available Countries](#Available%20Countries)**
 
 
 ---
@@ -88,6 +87,9 @@ We charge based on the tokens you use, and add an additional fee on top of that.
 - `gpt-4-8k`
   - Input: `$0.00003`
   - Output: `$0.00006`
+- `gpt-4-turbo`
+  - Input: `0.00001`
+  - Output: `0.00003`
 
 
 ---
@@ -101,19 +103,11 @@ The token price multiplicator is visible in the [/balance info](../slash-command
 > A token price multiplicator of `x1` reflects the exact price of a token. That means, if a token has a base price of `$0.00003`, you will pay that exact price for a token
 
 
-**Current multiplicator:** `x1.33`
-> On top of the token price, you automatically pay a 30% fee. For a token with a base price of `$0.00003`, you get charged `$0.00004`
-
-
----
-
-
-# Available Countries
-> Buying balance is currently only supported in the US
+**Current multiplicator:** `x1.19`
+> On top of the token price, you automatically pay a 19% fee. For a token with a base price of `$0.00003`, you get charged `$0.000057`
 
 
 
 
 
-
-*Last edit: 13.11.2023*
+*Last edit: 15.12.2023*
