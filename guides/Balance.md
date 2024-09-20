@@ -77,19 +77,46 @@
 # Token Pricing
 We charge based on the tokens you use, and add an additional fee on top of that. The fee is percentage based, and the same across all models. It's defined by the token multiplicator
 
-**Price per token (base price):**
-- `gpt-3.5-turbo`
-  - Input: `$0.0000015`
-  - Output: `$0.000002`
-- `gpt-3.5-turbo-16`
-  - Input: `$0.000003`
-  - Output: `$0.000004`
-- `gpt-4-8k`
-  - Input: `$0.00003`
-  - Output: `$0.00006`
-- `gpt-4-turbo`
-  - Input: `0.00001`
-  - Output: `0.00003`
+**Price per token (base price without multiplicator):**
+## `gpt-3.5-turbo`
+> **Model versions:**
+> - `gpt-3.5-turbo`
+> - `gpt-3.5-turbo-0301`
+> - `gpt-3.5-turbo-0613`
+
+> **Price per token:**
+> - Input: `$0.0000015`
+> - Output: `$0.000002`
+
+
+## `gpt-3.5-turbo-16`
+> **Model versions:**
+> - `gpt-3.5-turbo-16`
+> - `gpt-3.5-turbo-16-0613`
+
+> **Price per token:**
+> - Input: `$0.000003`
+> - Output: `$0.000004`
+
+
+## `gpt-4`
+> **Model versions:**
+> `gpt-4`
+> `gpt-4-0314`
+> `gpt-4-0613`
+
+> **Price per token:**
+> - Input: `$0.00003`
+> - Output: `$0.00006`
+
+
+## `gpt-4-turbo`
+> **Model versions:**
+> `gpt-4-1106-preview`
+
+> **Price per token:**
+> - Input: `0.00001`
+> - Output: `0.00003`
 
 
 ---
